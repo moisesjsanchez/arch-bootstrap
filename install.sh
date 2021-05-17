@@ -2,8 +2,6 @@
 
 echo -e 'Starting the bootstrap \n'
 
-# Keygen 
-
 # Dotfiles
 cd ~
 mkdir Configs
@@ -11,10 +9,6 @@ cd Configs
 git@github.com:moisesjsanchez/gentoo_conf.git
 cd ~
 mkdir Pictures && mkdir wallpapers
-cd Pictures/wallpapers
-# wallpapers link
-
-# Symlinks 
 
 # AUR Helper setup
 sudo pacman -S base-devel
